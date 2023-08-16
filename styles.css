@@ -4,7 +4,12 @@ body {
     font-family: Arial, sans-serif;
   }
   
-  
+  .header {
+    background-color: #1F2937;
+    color: #fff;
+
+  }
+
   .logo {
     font-size: 24px;
     font-weight: bold;
@@ -54,6 +59,7 @@ body {
     margin-bottom: 240px;
     margin-left: 210px;
     margin-top: 20px;
+    font-size: 20px;
   }
 
   .image {
@@ -72,6 +78,12 @@ body {
   .text-image {
     display: flex;
     justify-content: space-between;
+
+  }
+
+  .body1 {
+    background-color: #ffffff;
+    color: #1F2937;
 
   }
 
@@ -183,6 +195,12 @@ body {
     padding-bottom: 100px;
   }
 
+  .body2 {
+    background-color: #E5E7EB;
+    color: #000000;
+
+  }
+
   .frase {
     font-size: 36px;
     font-weight: lighter;
@@ -211,6 +229,63 @@ body {
     padding-bottom: 100px;
   }
 
+  .foot {
+    display: flex;
+    background-color: #fff;
+    color: #000000;
+    padding-bottom: 100px;
+    justify-content: center;
+    align-items: center;
+
+  }
+
+  .blue-box {
+    display: flex;
+    gap: 50px;
+    justify-content: center;
+    align-items: center;
+    width: 60%;
+    height: 150px;
+    background-color: #007bff;
+    margin-top: 100px;
+    border-radius: 10px;
+  }
+
+  .text-box {
+    list-style: none;
+    gap: 20px;
+    color: #fff;
+    margin: 70px;
+    font-size: 18px;
+  }
+
+  .button {
+    display: flex;
+    gap: 50px;
+    justify-content: center;
+    align-items: center;
+    width: 13%;
+    height: 40px;
+    margin: 100px;
+    background-color: #007bff;
+    border-radius: 10px;
+    font-size:20px;
+    font-weight: bold;
+    color: #fff;
+    border-style: solid;
+    border-color: #fff;
+  }
+
+  .text {
+    font-size: 26px;
+    font-weight: bold;
+  }
+
+  .subtext {
+    font-size: 17px;
+    font-weight: lighter;
+  }
+
   .nav-list a {
     color: #fff;
     text-decoration: none;
@@ -219,22 +294,4 @@ body {
   .sign-button a {
     color: #fff;
     text-decoration: none;
-  }
-
-  .header {
-    background-color: #1F2937;
-    color: #fff;
-
-  }
-
-  .body1 {
-    background-color: #ffffff;
-    color: #1F2937;
-
-  }
-
-  .body2 {
-    background-color: #E5E7EB;
-    color: #000000;
-
   }
